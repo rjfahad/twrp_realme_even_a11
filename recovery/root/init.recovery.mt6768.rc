@@ -1,5 +1,7 @@
 import /tee.rc
 on init
+    start servicemanager
+    start hwservicemanager
     mkdir /mnt/vendor/persist
     mount ext4 /dev/block/by-name/persist /mnt/vendor/persist rw
 
