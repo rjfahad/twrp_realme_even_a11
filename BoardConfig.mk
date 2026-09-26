@@ -159,7 +159,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # Haptics
-TW_NO_HAPTICS := false
+TW_NO_HAPTICS := true
 
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
