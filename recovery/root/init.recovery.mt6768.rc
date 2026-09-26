@@ -7,6 +7,7 @@ on fs
     install_keyring
 
 on boot
+    start health-hal-2-0
     start health-hal-2-1
 
 service keystore2 /system/bin/keystore2 /tmp/misc/keystore
